@@ -1,47 +1,29 @@
-# Mood Tracker
+# front-vue
 
-Mood Tracker is a web application that allows users to track their daily moods over a period of days. Users can select their current mood from a list of options and submit it. The application keeps a record of the mood entries in a history log, allowing users to view their mood history.
+This template should help get you started developing with Vue 3 in Vite.
 
-## Features
+## Recommended IDE Setup
 
-- Select and submit moods
-- View your mood history log
-- Responsive design for different screen sizes
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Technologies Used
+## Customize configuration
 
-- Vue.js: JavaScript framework for building user interfaces
-- SCSS: CSS extension language
-- HTML: Markup language for creating web pages
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Getting Started
+## Project Setup
 
-To get a local copy of the project up and running, follow these steps:
+```sh
+npm install
+```
 
-1. Clone the repository: ` git clone <repository url> `
+### Compile and Hot-Reload for Development
 
-2. Install the dependencies: `npm install `
+```sh
+npm run dev
+```
 
-3. Run the development environment: `npm run serve `
+### Compile and Minify for Production
 
-4. Access the application at `http://localhost:8080`.
-
-## Project Structure
-
-The project includes the following components:
-
-- `src`: Contains the source code of the Vue application
-  - `components`: Contains Vue components used in the application
-    - `MoodEntryForm.vue`: Component responsible for capturing and submitting mood entries
-    - `MoodHistory.vue`: Component displaying the history log of mood entries
-    - `MoodTracker.vue`: Main component that integrates other components and manages the overall application state
-  - `scss`: Contains SCSS stylesheet for styling the components
-  - `App.vue`: The root component of the application, renders the main layout
-  - `main.js`: The entry point of the application, where Vue is initialized and the root component is mounted
-
-
-## License
-
-This project is licensed under the MIT License.
-
-
+```sh
+npm run build
+```

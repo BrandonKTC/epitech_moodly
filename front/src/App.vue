@@ -1,20 +1,10 @@
-<template>
-  <div id="app">
-    <MoodTracker />
-  </div>
-</template>
-
-<script>
-import MoodTracker from './components/MoodTracker.vue';
-export default {
-  name: 'App',
-  components: {
-    MoodTracker,
-  },
-};
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<style lang="scss" scoped>
-@import '@/scss/styles.scss';
-</style>
+<template>
+    <RouterView />
+</template>
 
+<style scoped>
+</style>
